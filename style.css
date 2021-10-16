@@ -1,0 +1,25 @@
+.div-initial {
+    width: 3rem;
+    height: 3rem;
+    background-color: #04046d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+p {
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#limit, #view{
+    color: black;
+}
+
+/*header{
+    width: 100%;
+    height: auto;
+    background-color: rgb(90, 199, 144)
+}*/
