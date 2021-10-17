@@ -8,27 +8,31 @@
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
 </head>
 <header>
+    <div class="separation"></div> 
     <h1>Bienvenido</h1>
-    <div class="div-initial">
+    <div class="div_initial">
         <p id="p-initial"></p>     
     </div>
-    <p>Deja tu comentario</p> 
+    <p>Deja tu comentario</p>
+    <div class="separation"></div> 
 </header>
 <body>
     <div class="container">
         <h2> Bienvenido </h2>
-        <img src="" id="">
-        <h2> Dejanos tu comentario. </h2>
-        <input type="text" placeholder="Ingresa tu Nombre" id="input_name">
-        <textarea id="space-comment" placeholder="Minimo 200 caracteres" maxlength="200"></textarea>
-        <p id="limit">200</p>
-        <p id="view"></p>
-        <button id="button-comment" type="button">Comentar</button>
+        <img class="icon_user" src="../images/user.png" >
+        <input type="text" class="input_name" placeholder="Ingresa tu Nombre" id="input_name">
+        <textarea class="space_comment" id="space-comment" placeholder="Minimo 200 caracteres" maxlength="200"></textarea>
+        <div class="limit">
+            <p id="limit">200</p>   
+        </div>
+        <button class="btn_comment" id="button-comment" type="button">Comentar</button>
+        <div class="view">
+            <p id="view"></p>
+        </div>
     </div>
-    
-
-
-
     <script src='app.js'></script>
 </body>
+<footer>
+    <h3>Página realizada por &copy Natalia Sierra. 14/10/2021</h3>
+</footer>
 </html>
