@@ -136,3 +136,140 @@ h3{
     margin-left: 20px;
 }
 
+@media screen and (max-width:800px){
+    header{
+        width: 100%;
+        height: auto;
+        background-color: #46a2beb6;
+        text-align: center;
+    }
+    .div_initial{
+        width: 2rem;
+        height: 2rem;
+        background-color: #59fff1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        margin-left: 22%;
+        margin-top: -35px;
+    }
+    .separation{
+        width: 100%;
+        height: 3px;
+        background-color: #000000;
+    }
+    body{
+        width: 100%;
+        height: auto;
+        background-color: #ffffff;
+    }
+    p{
+        color: #000000;
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    h1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 30px;
+        padding-top: 10px;
+        text-align: center;
+        margin-left: 20px;
+    }
+    .container{
+        background-color: #53a5a5;
+        width: 350px;       
+        height: 70%;
+        position: absolute;
+        top:43%;
+        left: 50%;           
+        margin-top: -160px;
+        margin-left: -170px;
+        
+    }
+    
+    h2{
+        font-family: Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        margin-top: 5px;
+        text-align: center;
+        
+    }
+    
+    #input_name{
+        width: 80%;
+        height: 25px;
+        margin-top: 10px;
+        background-color: #affcc0;
+      
+    }
+    .icon_user{
+        width: 30px;
+        margin: 3px;
+        margin-top: 10px;
+        margin-left: 10px;
+        
+    }
+    .space_comment{
+        width: 80%;
+        height: 25px;
+        margin-top: 10px;
+        margin-left: 48px;
+        background-color: #affcc0;
+    }
+    #limit{
+        margin-left: 85%;
+    }
+    .btn_comment{
+        width: auto;
+        height: 30px;
+        margin-top: 10px;
+        margin-left: 150px;
+        background-color: #2ce296;
+        border-radius: 30px;
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+    }
+    .btn_comment:hover{
+        background-color: #62d0ec;
+        transition: background-color 800ms;
+        color: #000;
+    }
+    .btn_comment:focus{
+        background-color: #6aa5c7;
+        color: #000;
+    }
+    .view{
+        background-color: #d4cbcb;
+        width: 300px;       
+        height: auto;
+        position: absolute;
+        top:50%;
+        left: 50%;           
+        margin-top: 1px;
+        margin-left: -150px;   
+    }
+    #limit, #view{
+        color: black;
+        text-align: left;
+    }
+    footer{
+        width: 100%;
+        height: 40px;
+        background-color: #46a2beb6;
+        margin-top: 78%;
+    }
+    h3{
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding-top: 15px;
+        text-align: center;
+        margin-left: 20px;
+    }
+    
+}
+
